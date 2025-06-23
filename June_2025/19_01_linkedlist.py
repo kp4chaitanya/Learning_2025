@@ -29,8 +29,8 @@ class LinkedList:
 #func call
 my_linked_list=LinkedList(4)
 #print(my_linked_list.head.value)
-#
 my_linked_list.print()
+
 my_linked_list.append(5)
 my_linked_list.print()
 #print(my_linked_list.tail.value)
