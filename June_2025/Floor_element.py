@@ -6,6 +6,10 @@ def Floor_ele_finder(list2, x):
             Less_than_or_eql_floor.append(item)
             print("Less than eql floor list ", Less_than_or_eql_floor)
 
+        else:
+
+            Less
+
     Less_than_or_eql_floor.sort()
     floor_element=Less_than_or_eql_floor[-1]
     print("floor ele assigned as ", floor_element)
@@ -27,9 +31,9 @@ def Floor_ele_finder(list2, x):
     
 my_list=[1, 2, 8, 10, 10, 12, 19]
 x=5
-#Floor_ele_finder(my_list, x)
+Floor_ele_finder(my_list, x)
 
 list_new= [1, 2, 8, 10, 10, 12, 19]
 x1=11
 Floor_ele_finder(list_new, x1)
-Floor_ele_finder(list_new, x=0)
+#Floor_ele_finder(list_new, x=0)
